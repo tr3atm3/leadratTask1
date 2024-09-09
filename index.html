@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Website</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container-fluid custom-container-box">
+      <header class="mt-2">
+        <div class="container d-flex justify-content-between align-items-end">
+          <div>
+            <img
+              src="Images/logo.png"
+              alt="Logo of the Page"
+              class="img-fluid img-logo"
+            />
+          </div>
+          <ul
+            class="d-flex align-items-start justify-content-start text-secondary flexbox-gap"
+          >
+            <li class="header-main-options">Welcome Jeffery (Sign Out)</li>
+            <li class="header-main-options">My Account</li>
+            <li
+              class="d-flex align-items-center flexbox-gap header-main-options"
+            >
+              <img
+                src="Images/icon_cart.png"
+                alt="Icon of Cart"
+                class="img-fluid img-cart"
+              />
+              <span>999 Items - $9999.99</span>
+              <span class="weight-500">Checkout</span>
+            </li>
+            <li class="header-main-options border-0">Customer Service</li>
+          </ul>
+        </div>
+        <nav
+          class="border-top border-bottom border-light custom-outline nav-background"
+        >
+          <div
+            class="container d-flex flex-wrap justify-content-between align-items-center"
+          >
+            <ul
+              class="col-lg-9 col-sm-8 col-xxl-9 d-flex ps-1 mb-0 align-items-center flexbox-gap nav-items-container"
+            >
+              <li class="nav-items">Dining</li>
+              <li class="nav-items">Crystal</li>
+              <li class="nav-items">By Brand</li>
+              <li class="nav-items">What's New</li>
+              <li class="nav-items">Find a Gift</li>
+              <li class="nav-items">Wedding Ideas</li>
+              <li class="nav-items">Clearance & Special Offers</li>
+            </ul>
+            <div
+              class="col-lg-3 col-sm-4 col-xxl-3 d-flex align-items-center flexbox-gap"
+            >
+              <input
+                type="text"
+                placeholder="Search Keyword/Item #"
+                style="width: 20vw"
+              />
+              <button class="weight-500 button-go">GO</button>
+            </div>
+          </div>
+        </nav>
+        <div class="header-options-container">
+          <div
+            class="container d-flex justify-content-between align-items-center nav-container flex-wrap"
+          >
+            <div
+              class="d-flex justify-content-between align-items-center flex-wrap flexbox-gap"
+            >
+              <p class="mb-0">Free Shipping on Orders Over $150</p>
+              <div class="custom-circle"></div>
+              <p class="mb-0">Holiday Platters</p>
+              <div class="custom-circle"></div>
+              <p class="mb-0">Celebrate Thanksgiving</p>
+            </div>
+            <div class="d-flex align-items-center flexbox-gap">
+              <img
+                src="Images/bridelRegistry.jpg"
+                class="img-fluid img-bridal"
+              />
+              <p class="mb-0">Bridal Registry</p>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container main-container">
+        <div class="row g-2 bg-white white-border mb-2">
+          <div class="col-md-8">
+            <img src="Images/Recipe.jpg" class="w-100 h-100 img-fluid" />
+          </div>
+          <div class="col-md-4 bg-dark text-white p-2">
+            <div class="border dress-table">
+              <h3 class="mb-3 custom-font-size">Dress your table</h3>
+              <p class="text-muted mb-3 custom-p-font weight-500">
+                Create a fabulous new look for your next event. Choose from
+                various styles and ideas.
+              </p>
+              <ul class="table-list">
+                <li class="table-options">Contemporary</li>
+                <li class="table-options">Traditional</li>
+                <li class="table-options">Brunch</li>
+                <li class="table-options">Themes</li>
+                <li class="table-options">Buffet</li>
+                <li class="table-options border-0">Wine & Cheese</li>
+              </ul>
+              <p class="text-muted mt-2 weight-500">
+                <u>See more Dress Your Table Ideas</u>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row g-2 image-container bg-white align-items-end">
+          <div class="col-md-4 position-relative border-end">
+            <h4 class="position-absolute top-5 left-20 image-text--primary">
+              You'll love our fine stemware collection
+            </h4>
+            <p class="position-absolute top-25 left-20 image-text--secondary">
+              Lorem ipsum dolor sit amet.
+            </p>
+            <p class="position-absolute top-50 right-20 image-text--tertiary">
+              See all stemware
+            </p>
+            <img
+              src="Images/promo_glass.png"
+              alt="Three glasses"
+              class="img-fluid image-glasses"
+            />
+          </div>
+          <div class="col-md-4 position-relative border-end">
+            <h4 class="position-absolute top-neg-30 left-20">
+              Home accent for the holidays
+            </h4>
+            <p class="position-absolute top-neg-10 left-20">
+              Lorem ipsum dolor sit amet.
+            </p>
+            <p class="position-absolute top-15 right-15">
+              See all home accents
+            </p>
+            <img
+              src="Images/promo_plates.png"
+              alt="Two plates"
+              class="img-fluid image-plates"
+            />
+          </div>
+          <div
+            class="col-md-4 position-relative d-flex align-items-end justify-content-end"
+          >
+            <div class="w-50 position-absolute top-neg-5 left-20">
+              <h4 class="image-text--primary mb-1">
+                Mikasa clearance sale 20% to 80% off
+              </h4>
+              <p class="image-text--secondary mb-2">
+                Ut wisi enim ad minim veniam quis nostrud exerci tation.
+              </p>
+              <p class="image-text--tertiary">See all clearance items</p>
+            </div>
+            <img
+              src="Images/promo_album.png"
+              alt="Dinnerware set"
+              class="img-fluid align-self-end image-photoAlbum"
+            />
+          </div>
+        </div>
+      </main>
+
+      <footer
+        class="container d-flex justify-content-between align-items-top mt-3 color-footer"
+      >
+        <div class="col-8">
+          <div class="d-flex mb-2 flexbox-gap">
+            <p class="border-end mb-0 padding-1vw">
+              <u>About Mikasa</u>
+            </p>
+            <p class="border-end mb-0 padding-1vw">
+              <u>Customer Service</u>
+            </p>
+            <p class="mb-0"><u>Privacy Policy</u></p>
+          </div>
+          <p class="mb-0">
+            For assistance, call us at 1.866.645.2721 (Mon - Fri 8:30am - 6:00om
+            est) or <u>Email Us</u>
+          </p>
+          <p>@ Copyright 2008 Mikasa & Company</p>
+        </div>
+        <div class="col-4">
+          <p class="mb-2">
+            Sign up to receive special offers & promotions from Mikasa.
+          </p>
+          <div class="d-flex align-items-center flexbox-gap ps-0">
+            <input
+              type="text"
+              placeholder="Enter your email address"
+              class=""
+            />
+            <button class="button-signup">SIGN UP</button>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl7KpHL+vts1J9L2LkaNd1t96KKv9KPA1F3hK7pJTN00mssoUz68U2eGdNx"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGcueSaoGVrS8+pewH7H57CZp/7u6fGA5eD5zSkpDZ5Vh1zD/RAfjw0c6p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
